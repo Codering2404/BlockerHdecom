@@ -1,0 +1,8 @@
+package s2;
+
+import androidx.datastore.preferences.protobuf.AbstractC0726q;
+
+/* JADX INFO: renamed from: s2.a, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes.dex */
+public final class C2064a extends AbstractC0726q {
+}

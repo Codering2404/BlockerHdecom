@@ -1,0 +1,18 @@
+###### Class Y1.c (Y1.c)
+.class public abstract LY1/c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static a(Landroid/view/inputmethod/EditorInfo;Z)V
+    .registers 2
+
+    .line 1
+    invoke-virtual {p0, p1}, Landroid/view/inputmethod/EditorInfo;->setStylusHandwritingEnabled(Z)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

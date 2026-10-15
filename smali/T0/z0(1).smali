@@ -1,0 +1,49 @@
+###### Class T0.C0516z0 (T0.z0)
+.class public final LT0/z0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LE7/g;
+.implements Lh1/c;
+
+
+# static fields
+.field public static final synthetic s:LT0/z0;
+
+.field public static final t:LT0/U0;
+
+
+# direct methods
+.method static synthetic constructor <clinit>()V
+    .registers 1
+
+    .line 1
+    new-instance v0, LT0/z0;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, LT0/z0;->s:LT0/z0;
+
+    .line 7
+    .line 8
+    new-instance v0, LT0/U0;
+
+    .line 9
+    .line 10
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 11
+    .line 12
+    .line 13
+    sput-object v0, LT0/z0;->t:LT0/U0;
+
+    .line 14
+    .line 15
+    return-void
+.end method

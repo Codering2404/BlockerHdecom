@@ -1,0 +1,18 @@
+###### Class F7.d (F7.d)
+.class public final LF7/d;
+.super LG7/g;
+.source "SourceFile"
+
+
+# virtual methods
+.method public final p(Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 2
+
+    .line 1
+    invoke-static {p1}, LA7/a;->e(Ljava/lang/Object;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-object p1
+.end method

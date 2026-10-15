@@ -1,0 +1,17 @@
+package A8;
+
+import h0.AbstractC1502c0;
+import java.io.IOException;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract class r {
+    public static int a(int i10, int i11, int i12) throws IOException {
+        if ((i11 & 8) != 0) {
+            i10--;
+        }
+        if (i12 <= i10) {
+            return i10 - i12;
+        }
+        throw new IOException(AbstractC1502c0.q(i12, i10, "PROTOCOL_ERROR padding ", " > remaining length "));
+    }
+}

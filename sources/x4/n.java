@@ -1,0 +1,14 @@
+package X4;
+
+import java.util.Arrays;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class n implements e5.b {
+    public final boolean equals(Object obj) {
+        return obj instanceof n;
+    }
+
+    public final int hashCode() {
+        return Arrays.hashCode(new Object[]{n.class});
+    }
+}

@@ -1,0 +1,28 @@
+package d4;
+
+import X2.H;
+
+/* JADX INFO: renamed from: d4.k, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes.dex */
+public final class C1143k {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final H f13782a;
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public final C1133a f13783b;
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    public final C1136d f13784c;
+
+    /* JADX INFO: renamed from: d, reason: collision with root package name */
+    public final C1136d f13785d;
+
+    public C1143k(H h8) {
+        P7.k.f(h8, "__db");
+        this.f13782a = h8;
+        this.f13783b = new C1133a(4);
+        this.f13784c = new C1136d(4);
+        this.f13785d = new C1136d(5);
+    }
+}
